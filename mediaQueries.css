@@ -1,0 +1,110 @@
+
+
+/* 980px */
+
+/* 	pagewrap = reset width to 95%
+	content = reset width to 60%
+	sidebar = reset width to 30% */
+
+
+@media screen and (max-width: 980px) {
+
+	#pagewrap {
+		width: 95%;
+	}
+
+	#content {
+		width: 60%;
+		padding: 3% 4%;
+	}
+
+	#sidebar {
+		width: 30%;
+	}
+	#sidebar .widget {
+		padding: 8% 7%;
+		margin-bottom: 10px;
+	}
+
+}
+
+
+/* 650px */
+
+
+/* 	header = reset height to auto
+	searchform = re-position the searchform to 5px top
+	main-nav = reset the position to static
+	site-logo = reset the position to static
+	site-description = reset the position to static
+	content = reset the width to auto (this will make the container to expand fullwidth) and get rid of the float
+	sidebar = reset width to 100% and get rid of the float 
+	*/
+
+
+@media screen and (max-width: 650px) {
+
+	#header {
+		height: auto;
+	}
+
+	#searchform {
+		position: absolute;
+		top: 5px;
+		right: 0;
+	}
+
+	#main-nav {
+		position: static;
+	}
+
+	#site-logo {
+		margin: 15px 100px 5px 0;
+		position: static;
+	}
+
+	#site-description {
+		margin: 0 0 15px;
+		position: static;
+	}
+
+	#content {
+		width: auto;
+		float: none;
+		margin: 20px 0;
+	}
+
+	#sidebar {
+		width: 100%;
+		float: none;
+		margin: 0;
+	}
+
+}
+
+
+/* 480px */
+
+/* 	html = disable text size adjustment. 
+	By default, iPhone enlarges the text size so it reads more comfortably. 
+	You can disable the text size adjustment by adding -webkit-text-size-adjust: none;
+	main-nav = reset the font size to 90%
+*/
+
+
+
+
+@media screen and (max-width: 480px) {
+
+	html {
+		-webkit-text-size-adjust: none;
+	}
+
+	#main-nav a {
+		font-size: 90%;
+		padding: 10px 8px;
+	}
+
+}
+
+
