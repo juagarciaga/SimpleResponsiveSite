@@ -1,4 +1,4 @@
-
+/* MAIN CSS */
 /* The following CSS will reset the HTML5 elements to block element.*/
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { 
     display: block;
@@ -7,27 +7,27 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 #pagewrap {
 	width: 980px;
 	margin: 0 auto;
-	border: 1px solid red;
+	border: 2px solid red;
 }
 
 #header {
 	height: 160px;
-	border: 1px solid blue;
+	border: 2px solid blue;
 }
 
 #content {
 	width: 600px;
 	float: left;
-	border: 1px solid green;
+	border: 2px solid green;
 }
 
 #sidebar {
 	width: 280px;
 	float: right;
-	border: 1px solid orange;
+	border: 2px solid orange;
 }
 
 #footer {
 	clear: both;
-	border: 1px solid yellow;
+	border: 2px solid yellow;
 }

@@ -1,11 +1,9 @@
-
-
 /* 980px */
 
 /* 	pagewrap = reset width to 95%
 	content = reset width to 60%
-	sidebar = reset width to 30% */
-
+	sidebar = reset width to 30% 
+*/
 
 @media screen and (max-width: 980px) {
 
@@ -31,7 +29,6 @@
 
 /* 650px */
 
-
 /* 	header = reset height to auto
 	searchform = re-position the searchform to 5px top
 	main-nav = reset the position to static
@@ -39,9 +36,7 @@
 	site-description = reset the position to static
 	content = reset the width to auto (this will make the container to expand fullwidth) and get rid of the float
 	sidebar = reset width to 100% and get rid of the float 
-	*/
-
-
+*/
 @media screen and (max-width: 650px) {
 
 	#header {
@@ -90,10 +85,6 @@
 	You can disable the text size adjustment by adding -webkit-text-size-adjust: none;
 	main-nav = reset the font size to 90%
 */
-
-
-
-
 @media screen and (max-width: 480px) {
 
 	html {
